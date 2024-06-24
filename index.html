@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contadores com Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contadores com Números</h1>
+
+    <div class="contador">
+        <h2>Contador de 1 a 10</h2>
+        <button onclick="contadorDe1a10()">Iniciar Contagem</button>
+        <div id="resultado1" class="resultado"></div>
+    </div>
+
+    <div class="contador">
+        <h2>Contador de 10 a 0</h2>
+        <button onclick="contadorDe10a0()">Iniciar Contagem</button>
+        <div id="resultado2" class="resultado"></div>
+    </div>
+
+    <div class="contador">
+        <h2>Contagem Regressiva</h2>
+        <input type="number" id="numeroRegressivo" placeholder="Digite um número">
+        <button onclick="contagemRegressiva()">Iniciar Contagem Regressiva</button>
+        <div id="resultado3" class="resultado"></div>
+    </div>
+
+    <div class="contador">
+        <h2>Contagem Progressiva</h2>
+        <input type="number" id="numeroProgressivo" placeholder="Digite um número">
+        <button onclick="contagemProgressiva()">Iniciar Contagem Progressiva</button>
+        <div id="resultado4" class="resultado"></div>
+    </div>
+
+    <script src="contadores.js"></script>
+</body>
+</html>
